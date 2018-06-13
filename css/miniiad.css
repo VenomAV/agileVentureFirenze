@@ -1,3 +1,10 @@
+h2 {
+	text-transform: uppercase;
+	font-size: 45px;
+}
+.intro-body {
+	background: rgba(255,255,255,0.6);
+}
 .intro .intro-text { margin: 0 !important }
 #share_buttons {
 	position: fixed;
@@ -7,27 +14,17 @@
 	border-radius: 5px;
 	padding: 5px;
 }
-
 dl {
-    font-size: 18px
+  font-size: 18px;
 }
-
 .share_button {
 	margin: 5px;
 }
-
 .brand-frame {
-	background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-	border-radius: 15px;
-	padding: 15px;
-	padding-top: 40px;
+  color: #333;
+	padding: 40px 0;
+	margin-bottom: 50px;
 }
-.brand-frame .btn-circle {
-  color: white;
-  border-color: white;
-}
-
 .link-iscrizione {
 	background-color: rgba(0, 128, 0, 0.6);
 	border-radius: 15px;
@@ -41,11 +38,16 @@ dl {
 	background: rgba(0, 170, 212, 0.3);
 }
 
+#descrizione {
+	padding: 80px 30px 60px;
+}
 #sponsor {
 	background: white;
 	_background: rgba(0, 170, 212, 0.2);
 }
-
+#press {
+		background: rgba(0, 170, 212, 0.2);
+}
 #iscrizione {
 	background: rgba(0, 170, 212, 0.3);
 }
@@ -60,19 +62,22 @@ dl {
 
 #staff {
 	background: white;
-	_background: rgba(0, 170, 212, 0.3);
 }
 
 #staytuned {
 	background: rgba(0, 170, 212, 0.2);
+	padding-bottom: 80px;
 }
 
 .staff_member {
 	display: inline-block;
-	margin: 10px;
+	margin: 30px;
 }
 .staff_member_img {
-	height: 150px;
+	height: 200px;
+	border-radius: 100%;
+	border: 3px solid #eee;
+	box-sizing: content-box;
 }
 
 table.prtbl {
