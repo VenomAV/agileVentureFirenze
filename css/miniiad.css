@@ -54,29 +54,26 @@ dl {
 	border-radius: 15px;
 }
 
-#location {
-	background: rgba(0, 170, 212, 0.2);
-}
-
-#c4p {
-	background: rgba(0, 170, 212, 0.3);
-}
-
 #descrizione {
 	padding: 80px 30px 60px;
-}
-#sponsor {
 	background: white;
 	_background: rgba(0, 170, 212, 0.2);
 }
-#press {
+
+/* #press {
 		background: rgba(0, 170, 212, 0.2);
 }
 #iscrizione {
 	background: rgba(0, 170, 212, 0.3);
+} */
+
+#keynote {
+	background: white;
+	_background: rgba(0, 170, 212, 0.2);
 }
 
 #programma {
+	_background: white;
 	background: rgba(0, 170, 212, 0.2);
 }
 
@@ -84,12 +81,28 @@ dl {
     text-align: left;
 }
 
-#staff {
+#sponsor {
 	background: white;
+	_background: rgba(0, 170, 212, 0.2);
+}
+
+#c4s {
+	background: rgba(0, 170, 212, 0.2);
+}
+
+#location {
+	background: white;
+	_background: rgba(0, 170, 212, 0.2);
+}
+
+#staff {
+	_background: white;
+	background: rgba(0, 170, 212, 0.2);
 }
 
 #staytuned {
-	background: rgba(0, 170, 212, 0.2);
+	background: white;
+	_background: rgba(0, 170, 212, 0.2);
 	padding-bottom: 80px;
 }
 
@@ -391,3 +404,67 @@ td.prtd_lightning {
 }
 
 /* FINE Cookie law */
+
+/* Keynote */
+.keynote__bio {
+	margin-top: 50px;
+	text-align: left;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	background-color: rgba(0, 170, 212, 0.2);
+	padding: 10px 20px;
+}
+
+.keynote__title {
+	color: rgba(0, 170, 212, 1);/*#ea9316;*/
+	font-style: italic;
+}
+
+@media (min-width: 767px) {
+	.keynote__title {
+		font-size: 30px;
+	}
+}
+  
+.speaker {
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+@media (min-width: 767px) {
+	.speaker {
+		float: left;
+		margin-right: 20px;
+		font-size: 20px;
+	}
+}
+
+.speaker__description {
+	font-size: 18px;
+}
+
+.speaker__img {
+	width: 250px;
+	margin-top: 10px;
+}
+
+.speaker__name {
+	background-color: rgba(0, 170, 212, 1);/*#ea9316;*/
+	color: #fff;
+	font-weight: bold;
+	padding: 15px;
+	-webkit-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+	width: 200px;
+	margin: auto;
+	margin-top: -30px;
+	text-align: center;
+}
+
+.speaker__name a {
+	color: #fff;
+}
+
+/* Fine Keynote */
