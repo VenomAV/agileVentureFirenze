@@ -1,3 +1,8 @@
+hr {
+	border-color: #ccc;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 h2 {
 	text-transform: uppercase;
 	font-size: 45px;
@@ -55,7 +60,7 @@ dl {
 }
 
 #descrizione {
-	padding: 80px 30px 60px;
+	padding: 80px 30px 0;
 	background: white;
 	_background: rgba(0, 170, 212, 0.2);
 }
@@ -179,15 +184,21 @@ td.prtd_lightning {
 	background: rgba(0, 170, 212, 0.9);
 	color: white;
 }
-
+.sponsor-title {
+	height: 35px;
+	margin: 80px 0 0;
+}
 .sponsor-container {
 	margin-bottom: 80px;
-}
-.sponsor-line {
 }
 .sponsor-div {
 	display: inline-block;
 	margin: 50px 90px auto 90px;
+}
+.sponsor-div img {
+	object-fit: contain;
+	max-width: 400px;
+	max-height: 150px;
 }
 
 .session_title {
