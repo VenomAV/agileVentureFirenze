@@ -48,6 +48,7 @@ dl {
 	}
 	.brand-heading {
 		padding-bottom: 30px;
+	
 	}
 	.intro-text {
 		font-size: 14px;
@@ -186,10 +187,17 @@ td.prtd_lightning {
 }
 .sponsor-title {
 	height: 35px;
-	width: 300px;
+	width: 100%;
 	margin: 80px 0 0;
 	max-width: 100%;
 	height: auto;
+	text-align: center;
+	font-size: 2em;
+	align-content: center;
+	color: goldenrod
+}
+.base-sponsor{
+	color: #666;
 }
 .sponsor-container {
 	margin-bottom: 80px;
