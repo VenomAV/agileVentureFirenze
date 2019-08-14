@@ -162,6 +162,16 @@ a:focus {
   color: #444444;
   background: rgba(255, 255, 255, 0.1);
 }
+.btn-circle-white {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.btn-circle-white:hover,
+.btn-circle-white:focus {
+  outline: none;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
 .page-scroll .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
